@@ -55,7 +55,7 @@ if __name__ == '__main__':
     """
     ratio = 1
     results = []
-    original = [31, 17, 9, 8, 7, 7, 7, 7, 6, 6, 6, 5, 4]
+    original = [31, 17, 9, 8, 7, 7, 7, 7, 6, 6, 6, 5, 4]  # the original results when ratio = 1
     while not divisorMethod(parties, ratio, original):
         ratio -= 0.001
         for pp in parties:
